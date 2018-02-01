@@ -13,17 +13,17 @@ import java.io.Serializable;
 public class User implements Serializable {
     private Long id;
     private String userName;
-    private String password;
+    private String passWord;
     private String phone;
     private String address;
     public User () {
 
     }
 
-    public User(Long id, String userName, String password, String phone, String address) {
+    public User(Long id, String userName, String passWord, String phone, String address) {
         this.id = id;
         this.userName = userName;
-        this.password = password;
+        this.passWord = passWord;
         this.phone = phone;
         this.address = address;
     }
